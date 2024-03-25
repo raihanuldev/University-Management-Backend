@@ -1,9 +1,10 @@
 {
-    "compilerOptions": {
-      "module": "NodeNext",
-      "moduleResolution": "NodeNext", // or remove this line
-      // Other compiler options...
-    },
-    // Other configuration options...
+  "include": ["src"], // which files to compile
+  "exclude": ["node_modules"], // which files to skip
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext" // or remove this line
+    // Other compiler options...
   }
-  
+  // Other configuration options...
+}
