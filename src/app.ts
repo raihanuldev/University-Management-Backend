@@ -4,7 +4,7 @@ const app: Application = express()
 
 // useing cors
 app.use(cors())
-                app.use(express.json())
+                        app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 // test
 
